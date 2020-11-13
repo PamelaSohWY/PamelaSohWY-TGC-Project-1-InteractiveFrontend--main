@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-# TGC-Project-1-PSWY
-<h1>Trent Global College Project 1</h1> 
+
+# Trent Global College Project 1 
 by Soh Wei Yi Pamela 
 
 **1. Discuss the strategy of the project (user's goals, site owner's goals, user stories, minimally)**
-<h4>User Goals:</h4>
-<ul>Target Group of User:
+User Goals:
+* Target Group of User:
 <li>Tourists who want to explore Singapore on their own, especially non-commercialized places of interest with historic significance.</li>
 </ul>
 <ul>General Pain Point: 
@@ -31,7 +30,7 @@ Want to explore on their own.
 Pain Points: 
 No time to do extensive research. Budget constraints. 
 
-**User Stories 2:** 
+**User Stories 2:**  
 User Profile:
 Young Couple 
 Demographics:
@@ -76,6 +75,5 @@ _You **can** combine them_
 ## This is an <h2> tag
 ###### This is an <h6> tag
 
-=======
+Github Repositiory Name: 
 # TGC-Project-1-InteractiveFrontend--main
->>>>>>> fafccbc567e5ab26380c1b702357518fc4d33fd9
