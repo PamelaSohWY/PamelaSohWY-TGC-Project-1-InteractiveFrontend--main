@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TGC-Project-1-PSWY
 <h1>Trent Global College Project 1</h1> 
 by Soh Wei Yi Pamela 
@@ -75,3 +76,6 @@ _You **can** combine them_
 ## This is an <h2> tag
 ###### This is an <h6> tag
 
+=======
+# TGC-Project-1-InteractiveFrontend--main
+>>>>>>> fafccbc567e5ab26380c1b702357518fc4d33fd9
