@@ -1,0 +1,13 @@
+/* Test of link */
+.hello {
+    color:red;
+}
+
+.bg-light {
+    background-image: url(/images/navbarbackground2.png)
+}
+.body {
+    background-image:url(/images/beige.jpg)
+}
+
+
