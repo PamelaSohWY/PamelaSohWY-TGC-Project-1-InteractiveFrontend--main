@@ -108,10 +108,12 @@ https://www.sessions.edu/color-calculator-results/?colors=f7dfb2,edf7b2,f7bdb2,d
 https://www.nhb.gov.sg/~/media/nhb/files/places/trails/tiong%20bahru/tiongbahru%20(1).pdf
 
 **Bootstrap Code**  
-https://getbootstrap.com/docs/4.5/components/alerts/
+<!-- Broiler template from Bootstap -->
+<!-- https://getbootstrap.com/docs/4.5/getting-started/introduction/ -->
 
 **Map Code - Leafletjs**  
 https://leafletjs.com/
+
 
 **Tiong Bahru Photos**
 Food Photos
