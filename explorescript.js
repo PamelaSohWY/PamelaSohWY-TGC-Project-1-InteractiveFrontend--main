@@ -19,4 +19,15 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 }
 
+ let requests = [
+    createHotelFromJSON(map, "data/hoteltb.json"),
+    createFoodFromJSON(map, "data/food.json")
+    applyGeoJSON(map, "data/trees.geojson")
+  ];
+
+   let layers = [];
+  for (r of requests) {
+    layers.push(await r);
+  }
+
 main();
