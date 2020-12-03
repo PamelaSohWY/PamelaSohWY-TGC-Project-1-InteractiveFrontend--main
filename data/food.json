@@ -1,44 +1,44 @@
  
 [
     {
-        "name":"Old Tiong Bahru Bak Kut Teh",
-        "address":"Blk 58, Seng Poh Road, #01-31 Singapore 160058",
-        "telephone":"6223 3075",
-        "operating hours": "6:30am - 9:00pm (Monday off)",
+        "name":"Cheng's 27",
+        "address":"27 Yong Siak St, Singapore 168654",
+        "telephone":"+6562237883",
+        "operating hours": "6:30am - 9:00pm ",
         "type": "Non-halal",
-        "lat": 1.28967,
-        "long":103.85007,
-        "coordinates":[1.28967, 103.85007]
+        "lat": 1.283420292529617,
+        "long":103.83118144911698,
+        "coordinates": [1.283420292529617, 103.83118144911698]
     },
     {
-        "name":"Chapter 55",
-        "address":"Blk 55,  #01-37, Tiong Bahru Rd, Singapore 160055",
-        "telephone":"6221 2219",
-        "operating hours": "11:30am - 11:00pm (No day off)",
+        "name":"Havelock Cooked Food Centre",
+        "address":"22A Havelock Rd, Singapore 161022",
+        "telephone":"62712936",
+        "operating hours": "8:00am - 9:30pm (No day off)",
         "type": "Non-halal",
-        "lat": 1.28967,
-        "long":103.85007,
-        "coordinates":[1.28967, 103.85007]
+        "lat": 1.2883146624347424,
+        "long":103.83016481333854,
+        "coordinates":[1.2883146624347424, 103.83016481333854]
     },
      {
-        "name":"Hua Bee Restaurant",
-        "address":"78 Moh Guan Terrace, Singapore 162078",
-        "telephone":"6438 4567",
+        "name":"Beo Crescent Market",
+        "address":"38A Beo Cres, Singapore 169982",
+        "telephone":"+6562255632",
         "operating hours": "7:30am - 2:30pm (Sunday/Monday)",
         "type": "Non-halal",
-        "lat": 1.28967,
-        "long":103.85007,
-        "coordinates":[1.28967, 103.85007]
+        "lat": 1.2893914896202798,
+        "long":103.82719866202373,
+        "coordinates":[1.2893914896202798, 103.82719866202373]
     },
     {
-        "name":"Loo's Hainanese Curry Rice",
-        "address":"71 Seng Poh Rd, #01-49, Singapore 160071",
-        "telephone":"6225 3762",
-        "operating hours": "8:00am - 2:45pm (No day off)",
+        "name":"Tiong Bahru Bakery",
+        "address":"56 Eng Hoon St, #01-70, Singapore 160056",
+        "telephone":"6220 3430",
+        "operating hours": "8:00am - 9:00pm (No day off)",
         "type": "Non-halal",
-        "lat": 1.28967,
-        "long":103.85007,
-        "coordinates":[1.28967, 103.85007]
+        "lat": 1.2849401462512304,
+        "long":103.83355013310388,
+        "coordinates":[1.2849401462512304, 103.83355013310388]
     },
        {
         "name":"Tiong Bahru Market",
@@ -46,8 +46,8 @@
         "telephone":"--",
         "operating hours": "6:00am - 2:00pm (Monday)",
         "type": "Non-halal",
-        "lat": 1.28967,
-        "long":103.85007,
-        "coordinates":[1.28967,103.85007]
+        "lat": 1.285326287188478,
+        "long":103.8323485034845,
+        "coordinates":[1.285326287188478, 103.8323485034845]
     }
 ]

@@ -2,7 +2,7 @@
 .hello {
     color:red;
 }
-
+/* Styling for Index File*/
 .bg-light {
     background-image: url(/images/navbarbackground2.png)
 }
@@ -12,7 +12,7 @@
 } 
 
 #mainJumbo {
-    background-image:url(/images/beige2.jpg);
+  
     background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
 }
 
@@ -36,3 +36,26 @@
 #mainButton1 {
     background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
 }
+
+/*Styling for History Page*/
+
+#videoHistory {
+    height: 50vh;
+    padding: 50px 50px 50px 50px;
+}
+
+#bodyHistory {
+    
+    background-color: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
+}
+
+.card {
+    background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
+    color:black
+}
+.card-header {
+    color:black !important
+}
+
+/* Hotels styling */
+.carousel slide 

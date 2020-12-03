@@ -128,6 +128,9 @@ https://www.roots.gov.sg/Content/Places/landmarks/tiong-bahru-heritage-trail/mon
 Images 
 <a href='https://www.freepik.com/photos/background'>Background photo created by rawpixel.com - www.freepik.com</a>
 
+**Trees Information and Photos**
+https://www.nparks.gov.sg/gardens-parks-and-nature/heritage-trees/ht-2013-204
+
 
 Github Repositiory Name: 
 TGC-Project-1-InteractiveFrontend--main

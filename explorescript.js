@@ -1,8 +1,8 @@
 // For Set Up of Map
 //To put map on to html page with Tiong Bahru Co-ordinate
 async function main(){
-    let tiongbahru = [1.2865, 103.8270];
-    let map=L.map("themap").setView(tiongbahru,15);
+    let tiongbahru = [1.2849401462512304, 103.83355013310388];
+    let map=L.map("themap").setView(tiongbahru,30);
 
 //For application of token at mapbox.com 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -62,7 +62,7 @@ console.log(treesLayer)
   };
 
   let overlayLayers = {
-   "trees": treesLayer
+   "Trees": treesLayer
   };
 
   L.control.layers(baseLayers, overlayLayers).addTo(map);
@@ -73,7 +73,7 @@ console.log(treesLayer)
     .addEventListener("click", function() {
       // if the map has the nature layer shown
       if (map.hasLayer(treesLayer)) {
-          console.log(treeslayer)
+          console.log(treesLayer)
         map.removeLayer(treesLayer);
       } else {
           console.log(treesLayer)
@@ -87,7 +87,7 @@ async function createLayersFromJSON(map, jsonFile) {
   let layer = L.layerGroup();
   for (let location of response.data) {
     L.marker(location.coordinates)
-      .bindPopup(`<h1>${location.name}</h1>`)
+      .bindPopup(`<h3>${location.name}  ${location.address}</h3>`)
       .addTo(layer);
   }
   return layer;

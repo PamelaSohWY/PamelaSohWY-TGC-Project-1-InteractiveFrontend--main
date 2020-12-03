@@ -48,27 +48,26 @@
 		</nav>
 
 		<!-- Start of Body -->
+        
 <div class="container-fluid" id="main">
-		<div class="embed-responsive embed-responsive-16by9">
+		<div class="embed-responsive embed-responsive-16by9" id="videoHistory">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/K83aj6HUAmk" frameborder="20px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 
-
 <body class="body">
-	<div class="accordion" id="accordionExample">
-		<div class="card">
-			<div class="card-header" id="headingOne">
-				<h2 class="mb-0">
-					<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          How did Tiong Bahru get its name?
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           How did Tiong Bahru get its name?
         </button>
-				</h2>
-			</div>
+      </h5>
+    </div>
 
-			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-				<div class="card-body">
-
-					<p>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <p>
 						It is not clear when the name ‘Tiong Bahru’ first came into use. The name first appeared in a
 						newspaper report from 13 June 1863 in The Straits Times, which mentioned Tiong Bahru in
 						connection with an assault on one Tan Kung, a grass cutter who lived there. The report, which
@@ -81,20 +80,20 @@
 						to pass with a vehicle of any description.” The first appearance of Tiong Bahru Road on a map was
 						in 1913. Before that, the road had been named Burial Ground Road as it led from Outram Road
 						into an area surrounded by numerous Chinese burial grounds. </p>
-				</div>
-			</div>
-		</div>
-		<div class="card">
-			<div class="card-header" id="headingTwo">
-				<h2 class="mb-0">
-					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           What was Tiong Bahru originally? 
         </button>
-				</h2>
-			</div>
-			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-				<div class="card-body">
-			<p>	Bahru’ long before it appeared in published sources, going by the etymological roots of the term. ‘Tiong Bahru’ combines two words:
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+      <p>	Bahru’ long before it appeared in published sources, going by the etymological roots of the term. ‘Tiong Bahru’ combines two words:
                 ‘Tiong’ (终), meaning ‘to die’ (verb) or ‘in the end’ (adverb) in the Hokkien dialect, and the Malay word ‘bahru’ (also spelt ‘baru’), which
                 means ‘new’. Tiong Bahru would hence be used by locals to refer to a ‘new’ cemetery as opposed to an old cemetery. Where was this old cemetery? Teong Lama,
                 literally ‘Old Cemetery’, was located at what is now the site of the Singapore General Hospital, in the section bordered by College Road, 
@@ -111,19 +110,18 @@
                 was evidently made as an extension of the ‘Teong Lama’, and like that, it is on undulating hills of clay and laterite. There is plenty
                 of ground to spare for burials for the next ten years. The graves are made five to six feet deep. About 500 bodies per year are buried here.</p>
 				</div>
-			</div>
-		</div>
-		<div class="card">
-			<div class="card-header" id="headingThree">
-				<h2 class="mb-0">
-					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Tiong Bahru - A Model Public Housing Project 
-
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         Tiong Bahru - A Model Public Housing Project 
         </button>
-				</h2>
-			</div>
-			<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-				<div class="card-body">
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      	<div class="card-body">
 					<p>As it happened, the improvement scheme for Kampong Tiong Bahru fell on the lap of the Singapore Improvement Trust (SIT). Established in 1920 as a department of the Municipal Commission, 
                     SIT grew out of an idea first mooted more than a decade earlier in an editorial of The Singapore Free Press. SIT became an independent legal entity when the Singapore Improvement Ordinance was passed in 1927.
                     SIT’s first major housing project was an estate of 118 semi-detached villas known as the Lavender Street Estate, which it completed in 1928. Following this were two large blocks of tenements
@@ -152,10 +150,12 @@
 
                     <p>Tiong Bahru may be a highly sought-after addressat present, but the original estate got off on a slow start.</p>
 				</div>
-			</div>
-		</div>
-	</div>
+    </div>
+  </div>
 </div>
+
+
+</div> <!--main-->
 
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
