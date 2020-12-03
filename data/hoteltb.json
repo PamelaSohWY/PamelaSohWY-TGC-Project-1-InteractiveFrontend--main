@@ -2,27 +2,28 @@
 [
     {
         "name":"Nostalgia Hotel",
-        "description":"Nostalgia Hotel offers boutique-style accommodations in central Singapore, a 15-minute walk from Tiong Bahru MRT Station. 
-        It offers an outdoor pool,dining options and free Wi-Fi access.",
-        "coordinates":[1.2851, 103.8337]
-    },
-    {
-        "name":"Link Hotel",
-        "description":"Converted and restored in 2015 from two conserved art deco apartment blocks built in the 50s and 60s, 
-        Link Hotel Singapore offers accommodations located in the heart of heritage-rich Tiong Bahru.",
-        "coordinates":[1.2995, 103.8568]
-    },
-    {
-        "name":"Hotel 81 Osaka",
-        "description": "Located in Outram, Hotel 81 Osaka offers accommodations in Singapore. Free WiFi is available throughout the property.
-         It is 0.6 mi to Pearl's Hill and 0.8 mi to People's Park Complex.",
-        "coordinates":[ 1.2834,103.83497]
+        "description":"Nostalgia Hotel offers boutique-style accommodations in central Singapore, a 15-minute walk from Tiong Bahru MRT Station. It offers an outdoor pool,dining options and free Wi-Fi access.",
+        "lat":1.2851, 
+        "long":103.837
     }
-    {
-        "name":"D'Hotel Singapore",
-        "description": "Housed in a round building just 15 minutes’ walk from Outram Park MRT Station, 
-        the boutique-style D'Hotel Singapore combines classic and modern décor.",
-        "coordinates":[ 1.2834,103.83497]
-    }
-
 ]
+//     {
+//         "name":"Link Hotel",
+//         "description":"Converted and restored in 2015 from two conserved art deco apartment blocks built in the 50s and 60s, 
+//         Link Hotel Singapore offers accommodations located in the heart of heritage-rich Tiong Bahru.",
+//         "coordinates":[1.2995, 103.8568]
+//     },
+//     {
+//         "name":"Hotel 81 Osaka",
+//         "description": "Located in Outram, Hotel 81 Osaka offers accommodations in Singapore. Free WiFi is available throughout the property.
+//          It is 0.6 mi to Pearl's Hill and 0.8 mi to People's Park Complex.",
+//         "coordinates":[1.2834,103.83497]
+//     },
+//     {
+//         "name":"D'Hotel Singapore",
+//         "description": "Housed in a round building just 15 minutes’ walk from Outram Park MRT Station, 
+//         the boutique-style D'Hotel Singapore combines classic and modern décor.",
+//         "coordinates":[ 1.2700,102.83497]
+//     }
+
+// ]

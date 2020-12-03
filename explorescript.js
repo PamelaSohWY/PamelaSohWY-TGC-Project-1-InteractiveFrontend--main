@@ -1,9 +1,6 @@
-
-
-
 // For Set Up of Map
 //To put map on to html page with Tiong Bahru Co-ordinate
-async function main(){
+// async function main(){
     let tiongbahru = [1.2865, 103.8270];
     let map=L.map("themap").setView(tiongbahru,15);
 
@@ -17,17 +14,27 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken:  "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw" 
 }).addTo(map);
 
-}
+    console.log("where are you");
+L.marker([1.28, 103.8]).addTo(map).bindPopup("here");
+axios.get("data/testjson.json").then(function(response){
+    console.log("where are you2");
+    Loc=response.data;
+    L.marker([Loc[0]["lat"], Loc[0]["long"]]).addTo(map).bindPopup(Loc[0]["name"]);
+})
 
- let requests = [
-    createHotelFromJSON(map, "data/hoteltb.json"),
-    createFoodFromJSON(map, "data/food.json")
-    applyGeoJSON(map, "data/trees.geojson")
-  ];
+L.marker([1.25, 104.2]).addTo(map).bindPopup("here2");
 
-   let layers = [];
-  for (r of requests) {
-    layers.push(await r);
-  }
+ axios.get("data/hotel.json").then(function(response){
+    console.log("where are you3");
+    Loc=response.data;
+     console.log(Loc[0]["lat"], Loc[0]["long"]);
+    L.marker([Loc[0]["lat"], Loc[0]["long"]]).addTo(map).bindPopup(Loc[0]["name"]);
+})
 
-main();
+
+  axios.get("data/trees.geojson").then(function(response){
+    L.geoJson(response.data, {
+    color: "red"
+  }).addTo(map);
+  });
+  
