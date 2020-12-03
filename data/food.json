@@ -6,6 +6,48 @@
         "telephone":"6223 3075",
         "operating hours": "6:30am - 9:00pm (Monday off)",
         "type": "Non-halal",
-        "coordinates":[1.1000, 103.8200]
+        "lat": 1.28967,
+        "long":103.85007,
+        "coordinates":[1.28967, 103.85007]
+    },
+    {
+        "name":"Chapter 55",
+        "address":"Blk 55,  #01-37, Tiong Bahru Rd, Singapore 160055",
+        "telephone":"6221 2219",
+        "operating hours": "11:30am - 11:00pm (No day off)",
+        "type": "Non-halal",
+        "lat": 1.28967,
+        "long":103.85007,
+        "coordinates":[1.28967, 103.85007]
+    },
+     {
+        "name":"Hua Bee Restaurant",
+        "address":"78 Moh Guan Terrace, Singapore 162078",
+        "telephone":"6438 4567",
+        "operating hours": "7:30am - 2:30pm (Sunday/Monday)",
+        "type": "Non-halal",
+        "lat": 1.28967,
+        "long":103.85007,
+        "coordinates":[1.28967, 103.85007]
+    },
+    {
+        "name":"Loo's Hainanese Curry Rice",
+        "address":"71 Seng Poh Rd, #01-49, Singapore 160071",
+        "telephone":"6225 3762",
+        "operating hours": "8:00am - 2:45pm (No day off)",
+        "type": "Non-halal",
+        "lat": 1.28967,
+        "long":103.85007,
+        "coordinates":[1.28967, 103.85007]
+    },
+       {
+        "name":"Tiong Bahru Market",
+        "address":"30 Seng Poh Rd, Singapore 168898",
+        "telephone":"--",
+        "operating hours": "6:00am - 2:00pm (Monday)",
+        "type": "Non-halal",
+        "lat": 1.28967,
+        "long":103.85007,
+        "coordinates":[1.28967,103.85007]
     }
 ]
