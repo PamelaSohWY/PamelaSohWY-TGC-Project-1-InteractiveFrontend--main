@@ -3,11 +3,36 @@
     color:red;
 }
 
-/* .bg-light {
+.bg-light {
     background-image: url(/images/navbarbackground2.png)
-} */
-/* .body {
+}
+
+.body {
     background-image:url(/images/beige.jpg)
-} */
+} 
 
+#mainJumbo {
+    background-image:url(/images/beige2.jpg);
+    background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
+}
 
+#mainJumbo2 {
+    background-image:url(/images/beige2.jpg);
+    background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
+}
+
+#card1 {
+    background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
+}
+
+#card2 {
+    background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
+}
+
+#card3 {
+    background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
+}
+
+#mainButton1 {
+    background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
+}

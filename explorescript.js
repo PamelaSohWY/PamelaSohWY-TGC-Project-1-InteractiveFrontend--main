@@ -65,13 +65,15 @@ console.log(treesLayer)
    "trees": treesLayer
   };
 
-  L.control.layers(baseLayers,treesLayer).addTo(map);
+  L.control.layers(baseLayers, overlayLayers).addTo(map);
+//   treesLayer.addTo(map);
 
   document
     .querySelector("#btn-toggle-trees")
     .addEventListener("click", function() {
       // if the map has the nature layer shown
       if (map.hasLayer(treesLayer)) {
+          console.log(treeslayer)
         map.removeLayer(treesLayer);
       } else {
           console.log(treesLayer)
@@ -92,12 +94,26 @@ async function createLayersFromJSON(map, jsonFile) {
 }
 
 //to apply geo json
+
 async function applyGeoJSON(map, jsonFile) {
-  let response = await axios.get(jsonFile);
+let response = await axios.get(jsonFile);
+  let layer = L.layerGroup();
   L.geoJSON(response.data, {
-    color: "red",
-  }).addTo(map);
-}
+  color: "red",
+}).addTo(layer);
+ return layer;
+ }
+
+
+// async function applyGeoJSON(map, jsonFile) {
+//     let layer = L.layerGroup();
+//     console.log(layer);
+//   let response = await axios.get(jsonFile);
+//   L.geoJSON(response.data, {
+//     color: "red",
+//   }).addTo(layer);
+//   return layer;
+// }
 
 }
 
