@@ -1,6 +1,7 @@
 
 # Trent Global College Project 1 
-by Soh Wei Yi Pamela 
+by Soh Wei Yi Pamela
+Link to Website https://pamelasohwy.github.io/PamelaSohWY-TGC-Project-1-InteractiveFrontend--main/index.html 
 
 **1. Discuss the strategy of the project (user's goals, site owner's goals, user stories, minimally)**  
 User Goals:  
