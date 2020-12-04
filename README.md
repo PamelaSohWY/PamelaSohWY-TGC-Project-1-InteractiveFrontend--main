@@ -51,23 +51,25 @@ Travelling on tight budget. Finding  off the beaten track experience.
 (features and requirements, non-technical requirements, content requirements) 
 
 Features and requirements   
-Home Page   
--Sign up page   
-Hotels   
+*Home Page*   
+
+*History* 
+Embedded video
+*Hotels*   
 -Reservation Form   
-Explore  
+*Explore*  
 -Map layering  
 -Map data with json file   
 
-Non technical requirements   
+*Non technical requirements*   
 -Unified design on whole website   
 
-Content requirements   
+*Content requirements*   
 -Historical data  
--Food Trails   
--Art Trails   
+-Food Places Recommendation
+-Hotel Recommendation
 -Heritage Trees  
--Real time taxi data  
+
 
 3. Provide the structure of the project (site map) 
 ![Sitemap](/mockupimages/sitemap.jpg)
@@ -128,12 +130,16 @@ https://www.roots.gov.sg/Content/Places/landmarks/tiong-bahru-heritage-trail/mon
 Images 
 <a href='https://www.freepik.com/photos/background'>Background photo created by rawpixel.com - www.freepik.com</a>
 
-**Trees Information and Photos**
+**Trees Information and Photos from Explore Page**
 https://www.nparks.gov.sg/gardens-parks-and-nature/heritage-trees/ht-2013-204
 
 **photos from hotel page**
 http://www.tripatrek.com/tiong-bahru-food-centre-singapore/
 
+**Terms and Conditions** 
+www.booking.com 
+
+**code reference**
 
 Github Repositiory Name: 
 TGC-Project-1-InteractiveFrontend--main

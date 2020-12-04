@@ -64,5 +64,7 @@
 }
 .carousel-caption {
     color:black;
-    
+}
+#reserve {
+    background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61))
 }
