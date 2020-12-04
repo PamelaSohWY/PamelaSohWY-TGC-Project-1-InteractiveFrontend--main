@@ -181,3 +181,6 @@ www.booking.com
 
 Github Repositiory Name: 
 TGC-Project-1-InteractiveFrontend--main
+
+Link to Website 
+https://pamelasohwy.github.io/PamelaSohWY-TGC-Project-1-InteractiveFrontend--main/index.html
