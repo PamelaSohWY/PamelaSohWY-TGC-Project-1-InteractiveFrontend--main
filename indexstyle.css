@@ -35,7 +35,9 @@
 
 #mainButton1 {
     background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
+    border: black
 }
+ 
 
 /*Styling for History Page*/
 
@@ -57,6 +59,11 @@
     color:black !important
 }
 
+
+.btn.btn-link.collapsed{
+    color:black;
+    font-style: bold
+}
 /* Hotels styling */
 .carousel-item img {
   max-height: 30vh; /* input your desired height here */
@@ -67,4 +74,7 @@
 }
 #reserve {
     background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61))
+}
+div.media{
+    padding: 3.0rem
 }
