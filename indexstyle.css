@@ -58,4 +58,11 @@
 }
 
 /* Hotels styling */
-.carousel slide 
+.carousel-item img {
+  max-height: 30vh; /* input your desired height here */
+  max-width: 30vh
+}
+.carousel-caption {
+    color:black;
+    
+}

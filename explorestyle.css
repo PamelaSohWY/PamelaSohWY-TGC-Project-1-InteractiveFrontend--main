@@ -1,30 +1,9 @@
-/* 
-.body {
+#explore {
     background-image:url(/images/beige.jpg)
-} */
+}
 
 #themap {
     height: 50vh;
     padding: 25px 50px 75px 100px;
+    background-color: rgb(233, 216, 183), rgb(112, 84, 61)
 }
-
-
-/*
-padding: 25px 50px 75px 100px;
-}
-
- #carouselExplore .carousel .carousel-inner{
-height:500px
-}
-#carouselExplore .carousel-inner .carousel-item img{
-min-height:200px;
-/*prevent it from stretch in screen size < than 768px*/
-/* object-fit:cover
-}
-
-@media(max-width:768px){
-.carousel .carousel-inner{
-/*prevent it from adding a white space between carousel and container elements*/
-/* height:auto
- }
-} */ 

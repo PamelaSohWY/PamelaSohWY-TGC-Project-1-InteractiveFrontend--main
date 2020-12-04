@@ -47,7 +47,7 @@ let treesRequest=  applyGeoJSON(map, "data/trees.geojson");
   let foodLayer = await foodRequest;
   let hotelLayer = await hotelRequest;
 let treesLayer=  await treesRequest;
-console.log(treesLayer)
+//console.log(treesLayer)for testing
 
 //   let layers = [];
 //   for (r of requests) {
@@ -66,17 +66,17 @@ console.log(treesLayer)
   };
 
   L.control.layers(baseLayers, overlayLayers).addTo(map);
-//   treesLayer.addTo(map);
+ //treesLayer.addTo(map);
 
   document
     .querySelector("#btn-toggle-trees")
     .addEventListener("click", function() {
       // if the map has the nature layer shown
       if (map.hasLayer(treesLayer)) {
-          console.log(treesLayer)
+         // console.log(treesLayer) for testing
         map.removeLayer(treesLayer);
       } else {
-          console.log(treesLayer)
+        //  console.log(treesLayer) for testing
         map.addLayer(treesLayer);
       }
     });
@@ -97,23 +97,13 @@ async function createLayersFromJSON(map, jsonFile) {
 
 async function applyGeoJSON(map, jsonFile) {
 let response = await axios.get(jsonFile);
-  let layer = L.layerGroup();
+
+let layer = L.layerGroup();
   L.geoJSON(response.data, {
-  color: "red",
-}).addTo(layer);
+      color:"red"
+  }).addTo(layer);
  return layer;
  }
-
-
-// async function applyGeoJSON(map, jsonFile) {
-//     let layer = L.layerGroup();
-//     console.log(layer);
-//   let response = await axios.get(jsonFile);
-//   L.geoJSON(response.data, {
-//     color: "red",
-//   }).addTo(layer);
-//   return layer;
-// }
 
 }
 

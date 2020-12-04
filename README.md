@@ -131,6 +131,9 @@ Images
 **Trees Information and Photos**
 https://www.nparks.gov.sg/gardens-parks-and-nature/heritage-trees/ht-2013-204
 
+**photos from hotel page**
+http://www.tripatrek.com/tiong-bahru-food-centre-singapore/
+
 
 Github Repositiory Name: 
 TGC-Project-1-InteractiveFrontend--main
