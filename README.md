@@ -98,8 +98,8 @@ Future Features
 -Heritage Trees  
 
 **Responsiveness test**
-http://ami.responsivedesign.is/
-
+http://ami.responsivedesign.is/#
+![Responsive Test](/mockupimages/responsive_test.JPG)
 
 **Technologies Used**
 -HTML5
