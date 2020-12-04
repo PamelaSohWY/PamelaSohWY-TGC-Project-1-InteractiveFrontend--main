@@ -46,20 +46,47 @@ Likes to use technology to ease the constraints of creating own travel experienc
 Pain Points:   
 Travelling on tight budget. Finding  off the beaten track experience.   
 
+**UX**   
+The website is created so that tourists need only go to one website to search   
+for details of Tiong bahru and the surrounding place of interest.    
+It also provides information about the place, curated trails, hotel information   
+and also a map which can help with finding food and restaurants in the vicinity. 
+
+As the website is supposed to be information heavy, so the website is such that   
+it has demarcated segments, so that loading of information is only related to what
+they are interest in. It focuses more on visual display and information is hidden
+to prevent information overload. 
+
+The theme is tertiary brown to maintain a feel of nostalgia and to communicate that 
+even though Tiong Bahru is a hippy place it has historical roots. 
+The carousel feature, enables viewers to see the related activities through an interactive display. 
+
+**UI**
+Nav Bar is fixed and at the top, to provide an anchoring point for users when the visit site. 
+The sections of the Nav Bar helps users navigate through the site. 
+The format of the site is conventional, so that users can focus on the information presented 
+as we would want them to use it when on the move. 
 
 **2. List down the scope of the project   
 (features and requirements, non-technical requirements, content requirements) 
 
 Features and requirements   
 *Home Page*   
-
+-Lead Gathering Form
 *History* 
 Embedded video
+Collapsible information presentation
 *Hotels*   
 -Reservation Form   
 *Explore*  
 -Map layering  
--Map data with json file   
+-Map data with geojson file and json  
+Objective: Enable tourist to look for heritage trees, hotels and restauants
+
+Future Features 
+-Add restaurant page based on Json file
+ include reviews, rating 
+-Add Art Trail page with map and photos of murals
 
 *Non technical requirements*   
 -Unified design on whole website   
@@ -70,6 +97,17 @@ Embedded video
 -Hotel Recommendation
 -Heritage Trees  
 
+**Responsiveness test**
+http://ami.responsivedesign.is/
+
+
+**Technologies Used**
+-HTML5
+-CSS
+-Javascript 
+-Leaflet 
+-Gitpod (Code Editor)
+-Github (Version Control)
 
 3. Provide the structure of the project (site map) 
 ![Sitemap](/mockupimages/sitemap.jpg)
