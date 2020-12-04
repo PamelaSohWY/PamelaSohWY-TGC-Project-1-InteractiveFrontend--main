@@ -40,10 +40,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 //   });
 //   //codeok//
 
-let foodRequest = createLayersFromJSON(map, "data/food.json");
-let hotelRequest = createLayersFromJSON(map, "data/hotel.json");
+let foodRequest = createLayersFromJSON(map, "./data/food.json");
+let hotelRequest = createLayersFromJSON(map, "./data/hotel.json");
   
-let treesRequest=  applyGeoJSON(map, "data/trees.geojson");
+let treesRequest=  applyGeoJSON(map, "./data/trees.geojson");
   let foodLayer = await foodRequest;
   let hotelLayer = await hotelRequest;
 let treesLayer=  await treesRequest;

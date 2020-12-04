@@ -4,11 +4,11 @@
 }
 /* Styling for Index File*/
 .bg-light {
-    background-image: url(/images/navbarbackground2.png)
+    background-image: url(./images/navbarbackground2.png)
 }
 
 .body {
-    background-image:url(/images/beige.jpg)
+    background-image:url(./images/beige.jpg)
 } 
 
 #mainJumbo {
@@ -17,7 +17,7 @@
 }
 
 #mainJumbo2 {
-    background-image:url(/images/beige2.jpg);
+    background-image:url(./images/beige2.jpg);
     background: linear-gradient(rgb(233, 216, 183), rgb(112, 84, 61));
 }
 
